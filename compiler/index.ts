@@ -5,4 +5,4 @@ function sum(a: any, b: number): number {
 }
 
 
-console.log(sum('1',false));
+console.log(sum(1,1));
