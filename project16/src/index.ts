@@ -7,7 +7,8 @@
 type FruitType = {
      name: string
     taste: string
-     color?:string  // we add the ask mark to make it oiptional 
+    color?: string  // we add the ask mark to make it oiptional 
+  //   readonly color : string //we can also do that to make it not settable
 }
 
 let fruit1:FruitType ={
